@@ -1,13 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-// import windImage from '../public/wind.png';
 import windImage from '/wind.png';
-
-import Button from '@mui/material/Button';
-import Accordion from '@mui/material/Accordion';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import AccordionSummary from '@mui/material/AccordionSummary';
-// import Test from './components/Test/Test';
 
 function App() {
 	const [lat, setLat] = useState([]);
