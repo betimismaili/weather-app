@@ -88,27 +88,6 @@ function Weather({ data }) {
 					</b>
 				</div>
 			</div>
-			<footer>
-				<Button variant='contained'>Hello world</Button>
-			</footer>
-			<Accordion>
-				<AccordionSummary aria-controls='panel1-content' id='panel1-header'>
-					Accordion 1
-				</AccordionSummary>
-				<AccordionDetails>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-					malesuada lacus ex, sit amet blandit leo lobortis eget.
-				</AccordionDetails>
-			</Accordion>
-			<Accordion>
-				<AccordionSummary aria-controls='panel1-content' id='panel1-header'>
-					Accordion 1
-				</AccordionSummary>
-				<AccordionDetails>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-					malesuada lacus ex, sit amet blandit leo lobortis eget.
-				</AccordionDetails>
-			</Accordion>
 		</div>
 	);
 }
