@@ -25,7 +25,6 @@ function App() {
 			).then((data) =>
 				data.json().then((result) => {
 					setData(result);
-					console.log(result);
 				})
 			);
 		};
