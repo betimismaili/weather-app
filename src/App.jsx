@@ -3,6 +3,8 @@ import "./App.css";
 import windImage from "/wind.png";
 
 //test comment
+//test comment2
+
 function App() {
   const [lat, setLat] = useState([]);
   const [lon, setLong] = useState([]);
